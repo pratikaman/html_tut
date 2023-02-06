@@ -1,92 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta ch arset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/chp-1/html5.png" type="image/x-icon" />
-    <title>My first web pages</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Pratik Aman" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learn HTML."
+    />
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
   </head>
-  <body>
 
-    <h1>Hello world!!</h1>
-    <p>I am pratik</p>
+  <body>
+    <h1>My Goals for the Year</h1>
+
     <hr />
 
-    <p>Navigate:</p>
     <nav>
-        <ul>
-            <li><a href="#routine">My routine</a></li>
-            <li><a href="#about">about me</a></li>
-        </ul>
+      <ul>
+        <li>
+          <a href="#html">Learning HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+      </ul>
     </nav>
 
-    <h2>Hello world!!</h2>
-    <p>I am pratik</p>
-
-    <h3>Hello world!!</h3>
-    <p>I am pratik</p>
     <hr />
 
-    <h2>Hello world!!</h2>
+    <section id="html">
+      <h2>I'm Ready to Learn HTML</h2>
+      <p>This is my first web page.</p>
+      <img
+        src="./img/html_logo_300x300.png"
+        alt="html logo"
+        width="300"
+        height="300"
+      />
+
+      <figure>
+        <figcaption>Example of html code</figcaption>
+        <code>&lt;&lt;h1&gt;&gt;Hello World&lt;&lt;/h1&gt;&gt;</code>
+      </figure>
+
+      <h3>My Daily Schedule</h3>
+      <p>Let me tell you how:</p>
+      <ol>
+        <li>...I learn more about web dev.</li>
+        <li>...I plan out my schedule.</li>
+        <li>
+          ...I use resources from
+          <abbr title="Mozilla Developer Network">
+            <a href="https://developer.mozilla.org/">MDN</a> </abbr
+          >.
+        </li>
+      </ol>
+    </section>
+
+    <hr />
+
+    <section id="vacation">
+      <h2>I Am Also Planning a Vacation</h2>
+      <p>I've been working hard and <em>really need a getaway</em>.</p>
+      <p>I live in <abbr title="Delhi">Delhi</abbr> so I want visit a beach.</p>
+
+      <h3>Place I'd Like to Visit</h3>
+      <ul>
+        <li>
+          <p>I've heard good things about the Caribbean.</p>
+         <figure>
+          <img
+          src="img/caribbean.jpg"
+          alt="caribbean"
+          width="400"
+          height="225"
+          loading="lazy"
+        />
+        <figcaption>Caribbean</figcaption>
+         </figure>
+        </li>
+        <li>
+          <p>I've heard good things about going here:</p>
+          <address>
+            Margaritaville Island Reserve Riviera Cancún<br />
+            Bahia Petempich Puerto Morelos, Mexico<br />
+            Colonia Morelos, México 77580
+          </address> 
+          <figure>
+            <img src="img/vacation.jpg" alt="cancun vacation" loading="lazy" width="400" height="267">
+            <figcaption>A caribbean vacation image</figcaption>
+          </figure>
+      
+        </li>
+      </ul>
+      <!-- TODO: Add more places -->
+      <h3>Places I Want to Avoid</h3>
+      <dl>
+        <dt>North Pole</dt>
+        <dd>I hear this is <strong>cold</strong>!</dd>
+
+        <dt>South Pole</dt>
+        <dd>This is also cold.</dd>
+
+        <dt>Mountain Tops</dt>
+        <dd>These are also cold.</dd>
+      </dl>
+    </section>
+
+    <hr />
+    &lt;&lt;&lt; &copy; <a href="about.html">Pratik Aman</a> &gt;&gt;&gt;
     <p>
-      I am <a href="./about.html"> pratik </a><br />
-      &nbsp;...I m learning
-      <abbr title="Hyper text markup language ">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          >html</a></abbr>. <br />
-      &nbsp;...after this i will learn tailewind css
+      <a href="#">Back to Top</a>
     </p>
-
-    <h3>Hello world!!</h3>
-    <p>I am pratik</p>
-    <hr />
-
-    <section id="routine">
-    <h2>My daily routine</h2>
-    <p>start work at 11pm</p>
-    <p><em>lunch</em> at 2 pm</p>
-    <p>end work at 8</p>
-    <p><strong>study</strong> planned topics</p>
-
-    <p>List of items:</p>
-    <ol>
-      <li>first item</li>
-      <li>second item</li>
-      <li>third item</li>
-    </ol>
-
-    </section>
-
-    <hr>
-
-    <section id="about">
-    <p>About me:</p>
-    <ul>
-      <li><strong>name:</strong> Pratik aman</li>
-      <li><strong>email:</strong> pratikaman.atomATgmail.com</li>
-    </ul>
-
-    <!--just a comment-->
-    <address>Address: Delhi,<br />India</address>
-
-    </section>
-
-    <hr>
-
-    <h3>Places to avoid</h3>
-    <dl>
-      <dt>North Pole</dt>
-      <dd>I hear this is <strong>cold</strong>!</dd>
-
-      <dt>South Pole</dt>
-      <dd>This is also cold.</dd>
-
-      <dt>Mountain Tops</dt>
-      <dd>These are also cold.</dd>
-    </dl>
-
-    <p>&lt;&lt;&lt; &copy; Pratik Aman &gt;&gt;&gt;</p>
-    <a href="#">back to top</a>
   </body>
 </html>
